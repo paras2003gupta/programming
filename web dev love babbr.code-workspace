@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../web dev love babbr"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web dev love babbr",
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}
