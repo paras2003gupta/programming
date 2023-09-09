@@ -9,7 +9,7 @@ template <typename T>
 
 class graph{
     public:
-    unordered_map<T,list<T>>adj;
+    unordered_map<T,list<T>>adj; 
     void addEdge(T u, T v , bool direction){
         // direction == 0->undirected graph
         // direection = 1 -> directed graph
@@ -43,9 +43,9 @@ int main(){
     int m ; 
     cout<<"Enter the no of edges"<<endl;
     cin>>m;
-    graph<char> g;
+    graph<int> g;
     for(int i = 0 ; i< m ; i++){
-       char u,v;
+       int u,v;
         cin>>u>>v;
         g.addEdge(u,v,0);
 
