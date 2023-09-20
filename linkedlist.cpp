@@ -99,10 +99,13 @@ Node *floydalgoloopcheck(Node *head)
 
     while (fast != NULL && slow != NULL)
     {
-        fast = fast->next->next;
-        //    if(fast->next!=NULL){
-        //     fast = fast->next;
-        //    }
+        fast = fast->next;
+           if(fast->next!=NULL){
+            fast = fast->next;
+           }
+           else{
+            return NULL;
+           }
         slow = slow->next;
 
         if (fast == slow)
